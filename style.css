@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
+
+
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#searchSong
+{
+  width: 286px;
+  border-radius: 10px;
+}
+#bar
+{
+  background-image: url("./apple-music-note.jpg");
+  margin: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  position: relative;
+
+}
+form{
+  display: flex;
+    justify-content: center;
+}
+
+#bar div{
+width: 100%;
+display: grid;
+grid-template-columns: 28% 17%;
+justify-content: center;
+border-radius: 5px;
+}
+#inputsong
+{
+  
+  border-radius: 5px;
+  width: 226px;
+  position: relative;
+  left: 120px;
+
+}
+#searchbuttonb
+{
+  border-radius: 5px;
+  width: 64px;
+
+}
+li{
+  list-style-type: none;
+ 
+
+}
+
+ul{
+  display: flex;
+    flex-direction: column;
+}
+
+button{
+  text-align: center;
+  width: 76px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #253eb0;
+  color: white;
+  font-size: 14px;
+  border: none;
+  height: 31px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+li{
+  display: grid;
+  grid-template-columns: 70% 12%;
+  justify-content: start;
+  padding-left: 100px;
+  margin: 2px;
+}
